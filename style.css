@@ -86,3 +86,56 @@ footer {
 section p {
     margin-bottom: 1px; /* Ajusta o espaço abaixo dos parágrafos dentro das seções */
 }
+
+/* Ajusta a seção de contato para ser mais compacta */
+#contato {
+    margin: 0 auto; /* Margem automática para centralizar */
+    padding: 20px; /* Espaçamento interno */
+    max-width: 380px; /* Largura máxima reduzida para tornar o container menor */
+    border: 1px solid #ccc; /* Borda ao redor da seção */
+    border-radius: 8px; /* Borda arredondada */
+    background-color: #f9f9f9; /* Cor de fundo leve */
+    text-align: left; /* Alinha o texto à esquerda dentro da seção */
+}
+
+/* Estiliza o formulário de contato */
+.contact-form {
+    display: block; /* Certifica-se de que o formulário ocupa uma linha inteira */
+}
+
+/* Estiliza os campos do formulário */
+.contact-form label {
+    display: block; /* Cada label ocupa uma linha inteira */
+    margin-bottom: 0px; /* Espaço reduzido abaixo de cada label */
+    font-size: 12px; /* Tamanho da fonte reduzido */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; /* Campos ocupam toda a largura disponível */
+    padding: 0px; /* Espaço interno reduzido nos campos */
+    margin-bottom: 0px; /* Espaço reduzido abaixo de cada campo */
+    border: 1px solid #ccc; /* Borda dos campos */
+    border-radius: 4px; /* Borda arredondada dos campos */
+    font-size: 13px; /* Tamanho da fonte reduzido */
+}
+
+.contact-form textarea {
+    height: 50px; /* Altura reduzida para a caixa de texto */
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+.contact-form input[type="submit"] {
+    padding: 4px 20px; /* Espaço interno do botão reduzido */
+    border: none; /* Remove borda padrão do botão */
+    border-radius: 4px; /* Borda arredondada do botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor ao passar sobre o botão */
+    font-size: 13px; /* Tamanho da fonte reduzido */
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
