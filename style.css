@@ -1,63 +1,88 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do documento */
+    margin: 0; /* Remove a margem padrão do corpo */
+    padding: 0; /* Remove o preenchimento padrão do corpo */
+    background-color: #ff3b77; /* Define a cor de fundo do corpo */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #ff3b77; /* Define a cor de fundo do cabeçalho */
+    color: #ffffff; /* Define a cor do texto no cabeçalho */
+    padding: 0px 0; /* Remove o preenchimento do cabeçalho */
+    text-align: left; /* Alinha o texto do cabeçalho à esquerda */
+    margin: 20px; /* Adiciona uma margem ao redor do cabeçalho */
 }
 
 nav {
-    background-color: #444;
-    overflow: hidden;
+    background-color: #080808; /* Define a cor de fundo da barra de navegação */
+    overflow: hidden; /* Garante que o conteúdo não exceda os limites da barra de navegação */
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+    list-style-type: none; /* Remove as bolinhas ou números dos itens da lista */
+    margin: 0; /* Remove a margem padrão dos itens da lista */
+    padding: 0; /* Remove o preenchimento padrão dos itens da lista */
+    text-align: center; /* Centraliza o texto dos itens da lista */
 }
 
 nav ul li {
-    display: inline;
+    display: inline; /* Exibe os itens da lista na horizontal */
 }
 
 nav ul li a {
-    display: inline-block;
-    padding: 14px 20px;
-    color: white;
-    text-decoration: none;
+    display: inline-block; /* Permite o ajuste de preenchimento e alinhamento */
+    padding: 14px 20px; /* Define o preenchimento interno dos links */
+    color: white; /* Define a cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
 }
 
 nav ul li a:hover {
-    background-color: #333;
+    background-color: #333; /* Altera a cor de fundo dos links ao passar o mouse */
 }
 
 section {
     display: none; /* Esconde todas as seções inicialmente */
-    padding: 20px;
-    background-color: #fff;
-    margin: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adiciona preenchimento interno às seções */
+    background-color: #fff; /* Define a cor de fundo das seções */
+    margin: 20px; /* Adiciona margem ao redor das seções */
+    border-radius: 8px; /* Adiciona bordas arredondadas às seções */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil às seções */
+    overflow: hidden; /* Garante que o conteúdo não saia dos limites da seção */
 }
 
 section.active {
-    display: block; /* Exibe a seção ativa */
+    display: block; /* Exibe a seção ativa quando aplicada a classe 'active' */
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    text-align: center; /* Alinha o texto do rodapé ao centro */
+    padding: 0px; /* Remove o preenchimento do rodapé */
+    background-color: #030303; /* Define a cor de fundo do rodapé */
+    color: white; /* Define a cor do texto no rodapé */
+    position: fixed; /* Torna o rodapé fixo na parte inferior da tela */
+    width: 100%; /* Define a largura do rodapé como 100% da tela */
+    bottom: 0; /* Posiciona o rodapé na parte inferior da tela */
+    font-size: 12px; /* Define o tamanho da fonte no rodapé */
+}
+
+#home {
+    text-align: center; /* Centraliza o texto e a imagem horizontalmente dentro do elemento com id 'home' */
+}
+
+#home img {
+    max-width: 30%; /* Limita a largura máxima da imagem a 30% do elemento pai */
+    height: auto; /* Mantém a proporção da imagem */
+    display: inline-block; /* Permite o alinhamento da imagem com o texto */
+}
+
+#home p {
+    margin-top: 10px; /* Adiciona um espaço acima do parágrafo para separar da imagem */
+}
+
+.bold-text {
+    font-weight: bold; /* Define o texto como negrito */
+}
+
+section p {
+    margin-bottom: 1px; /* Ajusta o espaço abaixo dos parágrafos dentro das seções */
 }
