@@ -70,7 +70,7 @@ footer {
 }
 
 #home img {
-    max-width: 30%; /* Limita a largura máxima da imagem a 30% do elemento pai */
+    max-width: 40%; /* Limita a largura máxima da imagem a 30% do elemento pai */
     height: auto; /* Mantém a proporção da imagem */
     display: inline-block; /* Permite o alinhamento da imagem com o texto */
 }
